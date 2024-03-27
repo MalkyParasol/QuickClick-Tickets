@@ -1,0 +1,128 @@
+
+#activities-nav>a{
+    
+    color: rgb(231, 12, 118);
+}
+.activity>img{
+    width: 300px;
+    border-radius: 20px;
+}
+#H1Type{
+   display: flex;
+   justify-content: center;
+   color: rgb(231, 12, 118);
+   font-size: 40px;
+}
+.activity{
+    border: rgb(43, 226, 165) 2px double;
+    border-radius: 20px;
+   
+   margin: 5px;
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: #fff;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+  
+}
+.dataDiv{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px; 
+    width: 280px;
+}
+#selectDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#add{
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:340px) and (max-width:640px) {
+    .activity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media screen and (min-width:260px) and (max-width:340px) {
+    .activity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 235px;
+    }
+    .activity>img{
+        width: 150px;
+    }
+    .dataDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        width: 235px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:0px) and (max-width:260px) {
+    .activity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 135px;
+    }
+    .activity>img{
+        width: 130px;
+    }
+    .dataDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        width: 120px;
+        text-align: center;
+    }
+    input{
+        width: 120px;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+}
+#orderConfirmation{
+    text-align: center;
+}
+#aroundBtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+.form-control{
+    width: 300px;
+    margin: 5px;
+}
+
+.form-control-lg{
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+#selection-sort{
+    width: 133px;
+}
+
+

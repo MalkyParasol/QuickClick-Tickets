@@ -1,0 +1,112 @@
+.body{
+    background-color: rgb(241, 223, 202);
+}
+#top-nav{
+    direction: rtl;
+    background-color: rgb(43, 226, 165);
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    position: fixed;
+   top:0px;
+    width: 100%;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+}
+.link{
+    
+    margin: 10px;
+}
+.link:link{
+    text-decoration: none;
+}
+.nav:hover{
+    background-color: bisque;
+    border-radius: 10%;
+}
+#nav-icon{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#top-nav-text{
+    margin-bottom: 0px;
+}
+#logo{
+    display: flex;
+    margin: 6px;
+}
+.link{
+    color: black;
+}
+@media screen and (min-width:800px) and (max-width:3000px) {
+    .nav{
+       
+        width: 200px;
+    }
+}
+@media screen and (min-width:420px) and (max-width:527px) {
+    .link{
+        margin: 3px;
+    }
+}
+@media screen and (min-width:285px) and (max-width:420px) {
+    .link>p{
+        display: none;
+    }
+}
+@media screen and (min-width:215px) and (max-width:285px) {
+    #logo{
+        display: none;
+    }
+    .link>p{
+        display: none;
+    }
+}
+@media screen and (min-width:150px) and (max-width:215px) {
+    
+    #logo{
+        display: none;
+    }
+    
+    #top-nav{
+        flex-direction: column;
+        height: 350px;
+    }
+    .top{
+        margin-top: 350px !important;
+    }
+   
+}
+@media screen and (min-width:0px) and (max-width:150px) {
+    #logo{
+        display: none;
+    }
+    .link>p{
+        display: none;
+    }
+    #top-nav{
+        flex-direction: column;
+        height: 250px;
+    }
+    .top{
+        margin-top: 350px !important;
+    }
+   
+}
+#h1{
+    margin-top: 80px;
+    color: rgb(231, 12, 118);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.alignCenter{
+    text-align: center;
+}

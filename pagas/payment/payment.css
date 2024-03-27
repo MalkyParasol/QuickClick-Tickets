@@ -1,0 +1,220 @@
+#payment>a{
+    
+    color: rgb(231, 12, 118);
+}
+.activity>img{
+    width: 300px;
+    border-radius: 20px;
+}
+.activity{
+    border: rgb(43, 226, 165) 2px double;
+    border-radius: 20px;
+   
+   margin: 5px;
+   display: flex;
+   flex-direction: row-reverse;
+   background-color: #fff;
+}
+#activitiesList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.dataDiv{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 15px;
+   
+    width: 280px;
+}
+.btn-success{
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:340px) and (max-width:640px) {
+    .activity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+@media screen and (min-width:260px) and (max-width:340px) {
+    .activity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 235px;
+    }
+    .activity>img{
+        width: 150px;
+    }
+    .dataDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        width: 235px;
+        text-align: center;
+    }
+    .form-control{
+        width: 200px !important;
+    }
+
+}
+@media screen and (min-width:0px) and (max-width:260px) {
+    .activity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 135px;
+    }
+    .activity>img{
+        width: 130px;
+    }
+    .dataDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        width: 120px;
+        text-align: center;
+    }
+    .form-control{
+        width: 135px !important;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+}
+.p{
+    display: flex;
+    justify-content: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control{
+    width: 300px;
+    margin: 20px;
+}
+.fa-hand-point-left{
+    margin-left: 5px;
+    animation-name:hand;
+    animation-duration: 2s;
+   animation-iteration-count: infinite;
+   
+    
+}
+@keyframes hand{
+    0%{padding-inline-start: 2%;}
+   50%{padding-inline-start: 0%;}
+   
+   100%{padding-inline-start: 2%;}
+}
+.form-control-lg{
+    text-align: center;
+}
+
+.hand{
+    display: flex;
+    justify-content: center;
+}
+.payAttention{
+    position: absolute;
+}
+#without{
+    margin-inline-start: 320px !important;
+}
+#another{
+    margin-inline-start: 547px !important;
+}
+#ConfirmationOfPayment{
+    
+    top:80px;
+    display: flex;
+    width:550px;
+    border-radius: 5px;
+    height: 620px;
+    background-color: white;
+    
+    
+}
+#coverWindow{
+    z-index:2;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top: 70px;
+    /* background-color: white ; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#window{
+    border: 5px solid #888;
+    width: 50%;
+    height: 70%;
+    text-align: right;
+    background-color: white;
+    box-shadow: 0 0 6px 0.5px #999;
+    border-radius: 5px;
+   background-image: url(../../assets/אולם\ אירועים.png);
+   background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+
+}
+#xBtn{
+    font-size: 150%;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: white;
+}
+#xBtn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    
+}
+@media screen and (min-width:0px) and (max-width:605px)  {
+    .fa-hand-point-left{
+        display: none;
+    }
+    .payAttention{
+        position: static;
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width:0px) and (max-width:880px)  {
+    #window{
+        width: 80%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:540px)  {
+    #xBtn {
+        margin-bottom: 70px;
+    }
+    .text{
+        text-align: center;
+    }
+}
+@media screen and (min-width:150px) and (max-width:215px) {
+    #coverWindow{
+        display: none;
+    }
+}
+
+

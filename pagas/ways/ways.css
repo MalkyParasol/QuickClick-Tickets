@@ -1,0 +1,50 @@
+#ways>a{
+    
+    color: rgb(231, 12, 118);
+}
+h3{
+    margin-top: 80px;
+    color: rgb(231, 12, 118);
+    text-align: center;
+}
+#p{
+    margin-top: 80px;
+}
+#maps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#payAttintion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+#ifrMap{
+    border: rgb(43, 226, 165) 2px double;
+}
+@media screen and (min-width: 0px) and (max-width:860px){
+    .fa-hand-point-left{
+        display: none;
+    }
+}
+@media screen and (min-width: 270px) and (max-width:480px){
+   #ifrMap{
+    width: 250px;
+    height: 150px;
+   }
+}
+@media screen and (min-width: 0px) and (max-width:270px){
+    #ifrMap{
+     width: 130px;
+     height: 100px;
+    }
+ }

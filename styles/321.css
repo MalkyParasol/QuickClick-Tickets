@@ -1,0 +1,37 @@
+.body{
+    background-color: rgb(43, 226, 165);
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#n3{
+    color: rgb(231, 12, 118);
+}
+#n2{
+    color: rgb(230, 37, 130);
+}
+#n1{
+    color: rgb(235, 85, 157);
+}
+#n0{
+    color: rgb(237, 133, 184);
+}
+@media screen and (min-width:0px) and (max-width:450px) {
+    .icon{
+        
+       margin-top:200px;
+      
+       
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .bi{
+        width: 200px;
+        height: 200px;
+        display: flex;
+    }
+ }

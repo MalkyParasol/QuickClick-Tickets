@@ -1,0 +1,77 @@
+#new>a{
+    
+    color: rgb(231, 12, 118);
+}
+.text-nav{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    border-color: black;
+   border-style: double;
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   text-align: center
+}
+#circles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    text-decoration-style: double;
+}
+#texts{
+    margin: 5px;
+}
+#a{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+.text-nav{
+   
+    font-family:Guttman-Aharoni;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+#park-nav{
+    background-image: url(../../assets/תמונה\ פארק\ טכנולוגי.jpg);
+}
+#center-nav{
+    background-image: url(../../assets/מרכז\ מסחרי.jpg);
+}
+#cemetery-nav{
+    background-image: url(../../assets/בית\ העלמין.jpg);
+}
+#cemetery,#center,#park{
+    border: rgb(43, 226, 165) 8px solid;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.img{
+    width: 500px;
+    border: black 2px solid;
+    margin: 8px;
+}
+.pink{
+    color: rgb(7, 128, 234);
+    background-color: rgb(222, 188, 103);
+    display: inline-block;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 25px;
+}
+.gray{
+    color:gray;
+    margin: 20px;
+}
+@media screen and (min-width:0px) and (max-width:600px)  {
+    .img{
+        width: 150px;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="../../assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../styles/nav.css">
+    <link rel="stylesheet" href="../../packages/bootstrap-3.4.1-dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../packages/bootstrap-3.4.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../packages/ספריית אייקונים - font awesome/fontawesome-free-5.12.0-web/fontawesome-free-5.12.0-web/css/all.css">
+    <!-- <link rel="stylesheet" href="../activities/activities.css"> -->
+    <link rel="stylesheet" href="./payment.css">
+    <title>פעילויות בין הזמנים</title>
+</head>
+<body class="body">
+    <!-- ניווט עליון- מופיע בכל הדפים -->
+   <div id="top-nav">
+    <div id="logo">
+       <img src="../../assets/logo.png" alt="" id="logo-image">
+    </div>
+    <div class="nav" id="home" >
+     <a href="../home/home.html" class="link" >
+       <i class="fas fa-home " id="nav-icon" ></i>
+       <p id="top-nav-text">בית</p>
+     </a>
+     </div>
+    <div class="nav" id="activities">
+     <a href="../activities/activities.html" class="link">
+       <i class="fas fa-umbrella-beach " id="nav-icon"></i>
+       <p id="top-nav-text">פעילויות בין הזמנים</p>
+     </a>
+    </div>
+    <div class="nav" id="payment">
+     <a href="../payment/payment.html" class="link">
+       <i class="fas fa-shekel-sign " id="nav-icon"></i>
+       <p id="top-nav-text">לתשלום</p>
+     </a>
+     </div class="nav">
+    <div class="nav" id="ways">
+     <a href="../ways/ways.html" class="link">
+     <i class="fas fa-map-marker-alt " id="nav-icon"></i>
+     <p id="top-nav-text">דרכי הגעה</p>
+     </a>
+     </div>
+    <div class="nav" id="feedback">
+     <a href="../feedback/feedback.html" class="link">
+       <i class="fas fa-thumbs-up " id="nav-icon"></i>
+       <p id="top-nav-text">משוב</p>
+     </a>
+   </div >
+    <div class="nav" id="new">
+     <a href="../new/new.html" class="link">
+       <i class="fas fa-tree " id="nav-icon"></i>
+       <p id="top-nav-text">חדש בעירנו</p>
+     </a>
+   </div>
+   
+</div>
+<h1 id="h1" class="top">רשימת הפעילויות שנבחרו</h1>
+<div id="activitiesList">
+      
+      
+
+</div>
+<div id="forPayment">
+
+</div>
+<div id="payAttention">
+  <h4 class="hand"> <p class="payAttention" > שימו לב אין אפשרות ביטול לאחר התשלום </p>  <i class="fas fa-hand-point-left" id="without"></i> </h4>
+  <h4 class="hand"> <p class="payAttention" > התשלום בפעימה אחת בלבד, לא ניתן לבחור אחר התשלום פעילויות נוספות  </p> <i class="fas fa-hand-point-left" id="another"></i> </h4>
+  
+</div>
+<div id="pament">
+<h2 class="p alignCenter" id="enterDetails">נא הכניסו פרטי אשראי לצורך השלמת התשלום</h2>
+<form action="" id="form">
+  
+  <input type="text" placeholder="מספר אשראי" class="form-control form-control-lg" required>
+  <input type="text" maxlength="3" minlength="3" placeholder=" שלוש ספרות בגב הכרטיס" class="form-control form-control-lg" required>
+  <input type="text" maxlength="4" minlength="4" placeholder="תוקף הכרטיס - 4 ספרות" class="form-control form-control-lg" required >
+  <input type="text" maxlength="9" minlength="9" placeholder="מספר זהות של בעל האשראי" class="form-control form-control-lg" required>
+  <span>:מספר תשלומים</span>
+  <select id="selection-sort" class="form-select form-control form-control-lg">
+    <option selected value="1" class="option">תשלום אחד</option>
+    <option value="2" class="option">שני תשלומים</option>
+    <option value="3" class="option">שלושה תשלומים</option>
+  </select>
+  <button class="btn-success" id="confirm" type="submit">אישור</button>
+</form>
+
+</div>
+<!-- <div id="coverWindow">
+  <div id="window">
+   
+    <i class="fas fa-times"></i>
+    <h3 class="text">! התשלום בוצע בהצלחה </h3>
+    <h4 class="text">: מספר אסמכתא</h4>
+    <h4 class="text">1245</h4>
+    <h1 class="text">(: מחכים לכם כבר בפנים</h1>
+    
+  </div>
+  
+</div>   -->
+</body>
+<script src="../../packages/jquery-3.6.4.min.js"></script>
+<script src="../../services/services.js"></script>
+<script src="./payment.js"></script>
+</html>

@@ -1,0 +1,76 @@
+body{
+    overflow-y: hidden;
+}
+#home>a{
+    
+    color: rgb(231, 12, 118);
+}
+video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    transition: 1s opacity;
+    z-index: -1;
+    height:fit-content !important;
+    width:100%;
+}
+.text{
+    
+    color:bisque;
+    background-color: black ;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#texts{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#welcom{
+    margin-top: 80px;
+}
+.line-container{
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+}
+a.line-container{
+    text-decoration-line: underline ;
+    color: bisque;
+}
+@media screen and (min-width:480px) and (max-width:640px) {
+    #texts{
+        height: 300px;
+        
+    } 
+    .text{
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:340px) and (max-width:480px) {
+    #texts{
+        height: 200px;
+        
+    } 
+    .text{
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:220px) and (max-width:340px) {
+   video{
+    display: none;
+   }
+}
+@media screen and (min-width:0px) and (max-width:220px) {
+    video{
+     display: none;
+    }
+    #welcom{
+        margin-top: 700px;
+    }
+ }
+
