@@ -1,4 +1,4 @@
-# Online Ticket Purchase App for Vacation Events - Client-Side
+# Online Ticket Purchase App for Vacation Events - Client Side
 
 ## Description:
 
